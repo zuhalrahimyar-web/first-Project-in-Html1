@@ -1,74 +1,142 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
 
-    <title>Contact Us</title>
+  <link rel="stylesheet" href="style-6.css">
 
+  <!-- Font Awesome icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
 </head>
-
 <body>
 
-     <!-- head -->
-     <div>
-         <h1> Ready to start learning? Contact us! </h1>
+  <footer class="footer">
 
-  <p> Get in touch to begin your journey with our expert-led programs and take<br>the next step towards achieving your goals!</p>
-    
-  
-     <button> Contact Us</button>
+    <div class="container">
 
-     <button> Send Email</button>
-</div>
-     <!-- Footer  -->
-      
-     <hr>
-     <!-- Logo --> 
-<div>      
-     <h3>Upskill Bootcamp</h3>
+      <!-- Contact Banner -->
+      <section class="contact-banner">
+        <h1>Ready to start learning? Contact us!</h1>
 
-    <span>f</span>
-    <span>in</span>
-    <span>ig</span>
-     <span>o</span>
+        <p>
+          Get in touch to begin your journey with our expert-led programs and take
+          <br class="desktop-break">
+          the next step towards achieving your goals!
+        </p>
 
-    
+        <div class="banner-buttons">
+          <a href="tel:+93765000185" class="btn">
+            <i class="fa-solid fa-phone"></i>
+            Contact Us
+          </a>
+
+          <a href="mailto:info@upskillbootcamp.tech" class="btn">
+            <i class="fa-solid fa-envelope"></i>
+            Send Email
+          </a>
+        </div>
+      </section>
+
+      <!-- Footer Content -->
+      <div class="footer-content">
+
+        <!-- Logo and Social Media -->
+        <div class="footer-column brand-column">
+          <a href="#" class="logo">
+               <img src="imeges/logo.png" alt="logo"
+               class="footer-logo">
+            </a>
+          
+
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
         <!-- Address -->
-    
-        <h3>Our Address</h3>
+        <div class="footer-column">
+          <h3>Our Address</h3>
 
-        <p> & Karla Char, 3rd Division Opposite Street,<br>Sun Tower Plaza </p>
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>
+                Karta Char, 3rd Division Opposite Street,
+                Sun Tower Plaza
+              </span>
+            </li>
 
-        <p> * +93 765000185</p>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+93765000185">+93 765000185</a>
+            </li>
 
-         <p># 08:00 - 09:00</p>
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <span>08.00 - 9.00</span>
+            </li>
+          </ul>
+        </div>
 
-             
-      <!-- Quick Links -->
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
 
-            
-
-        <h3>Quick Links</h3>
-
-          <p>o</p>
-         <p>info@upskillbootcamp.tech</p>
-
-        
-
+          <ul class="quick-links">
+            <li>
+              <a href="mailto:info@upskillbootcamp.tech">
+                <i class="fa-solid fa-envelope"></i>
+                info@upskillbootcamp.tech
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <!-- Newsletter -->
+        <div class="footer-column">
+          <h3>Newsletter</h3>
 
-        
+          <form class="newsletter-form"
+                action="#"
+                method="get">
+            <label for="email" class="visually-hidden">
+              Your email address
+            </label>
 
-        <h3>Newsletter</h3>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            >
 
+            <button type="submit" aria-label="Subscribe">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
 
-</div>
-
-</footer>
+      </div>
+    </div>
+  </footer>
 
 </body>
-
 </html>

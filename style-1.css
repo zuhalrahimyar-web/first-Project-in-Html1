@@ -1,0 +1,139 @@
+
+body {
+    background-color: white;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Main Container */
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #55564e;
+    border: 7px solid #c9c8d8;
+    border-radius: 4px;
+}
+
+/* Main Heading */
+h1 {
+    color: #92beef;
+    font-size: 42px;
+    margin: 20px 0 25px;
+}
+
+/* Section Headings */
+h2 {
+    color: #92beef;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+/* Highlighted Words */
+span {
+    color: rgb(221, 201, 88);
+    font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.5;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-top: 1px solid #aaa;
+    margin: 15px 0;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+/* Movie Links */
+a {
+    color: rgb(216, 78, 78);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mood Images */
+.moods {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.mood img Happy {
+    display: block;
+    width: 175px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.mood p {
+    margin: 3px 0;
+    font-weight: bold;
+}
+
+
+/* Validation Images */
+.validators {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 15px 0 5px;
+}
+
+.validators img {
+    width: auto;
+    height: auto;
+    max-width: 90px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+        font-size: 13px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .moods {
+        gap: 12px;
+        margin-left: 5px;
+    }
+
+    .mood img {
+        width: 130px;
+        height: 170px;
+    }
+}

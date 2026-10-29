@@ -1,63 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Explore Our Courses</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Our Courses</title>
+  <link rel="stylesheet" href="style-5.css">
 </head>
-
 <body>
 
-    <!-- Courses Section -->
+  <section class="courses-section">
+    <div class="container">
 
-    <section>
-
-        <div>
-            <!-- Haeding -->
-
-            <h1>Explore Our Courses</h1>
-
-            <p>
-                We deliver thoughtfully curated, multi-disciplinary
-                programs both online and on-campus at our training centers <br>across the country.
-            </p>
-
-            <button>See All Courses</button>
-
+      <!-- Header -->
+      <div class="courses-header">
+        <div class="header-content">
+          <h1>Explore Our Courses</h1>
+          <p>
+            We deliver thoughtfully curated, multi-disciplinary programs
+            both online and on-campus at our training centers <br> across the country.
+          </p>
         </div>
-       <!-- <div>parent -->
 
-        <!-- Course lift-->
-         <img src="imeges/Front-end.png" alt="Front-end"> 
+        <a href="#" class="view-all">See All Courses</a>
+      </div>
 
-        <div>
+      <!-- Course Cards -->
+      <div class="courses-grid">
 
+        <!-- Front-End Course -->
+        <article class="course-card featured">
+          <img
+            src="imeges/Front-end.png"
+            alt="Front-End Web Development"
+            class="course-image"
+          >
+
+          <div class="course-content">
             <h2>Front-End Web Development Bootcamp</h2>
 
             <p>
-                Front-End Web Development Bootcamp: Choose between our
-                6-month <br>or 3-month program to master essential front-end
-                technologies including <br> HTML,CSS,JavaScript,React,Talwind CSS, TypeScript,and Bootstrap,<br>along with tools like GitHub and Figma.
+              Front-End Web Development Bootcamp: Choose between our
+              <strong>6-month <br> or 3-month</strong> program to master essential
+              front-end languages including <br> <strong>HTML, CSS, JavaScript,
+              React, Tailwind CSS, TypeScript, and Bootstrap <br></strong>,
+              along with tools like GitHub and Figma. Build dynamic,
+              user-friendly <br> websites with cutting-edge technologies.
             </p>
+          </div>
+        </article>
 
-        </div>
-        <!-- Course Right -->
-        <img src="imeges/Back-end.png" alt="Back-end">
-        <div>
+        <!-- Back-End Course -->
+        <article class="course-card">
+          <img
+            src="imeges/Back-end.png"
+            alt="Back-End Web Development"
+            class="course-image"
+          >
 
+          <div class="course-content">
             <h2>Back-End Web Development Bootcamp</h2>
 
             <p>
-                Choose our 6-month Back-End Web Development Bootcamp
-                to master <br> essential technologies such as Node.js,Express,MongoDB,SQL,<br>Python,Django,RESTful APIs,and Git.
+              Choose our 6-month Back-End Web Development Bootcamp to master <br>
+              essential technologies such as Node.js, Express.js, MongoDB,
+              SQL,<br> Python, Django, RESTful APIs, and Git. Develop the skills
+              to build robust,<br> scalable server-side applications and manage
+              databases effectively.
             </p>
+          </div>
+        </article>
 
-        </div>
-</div>
-    </section>
+      </div>
+    </div>
+  </section>
 
 </body>
-
 </html>
